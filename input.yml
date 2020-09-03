@@ -1,0 +1,12 @@
+instance_details:
+  - name: InSpec EC2 Instance
+    id: i-0ee22ed198e0d3071
+    AMI: ami-016b213e65284e9c9
+    tag_name: User
+    tag_value: NEC
+    role: EC2InstanceRole
+    
+instance_key: inspec-key
+instance_image_id: ami-016b213e65284e9c9
+tag: Environment
+value: Dev

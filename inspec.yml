@@ -1,0 +1,9 @@
+name: my-profile
+title: My own AWS profile
+version: 0.1.0
+inspec_version: '>= 4.6.9'
+depends:
+  - name: inspec-aws
+    url: https://github.com/inspec/inspec-aws/archive/inspec-4.6.9.tar.gz
+supports:
+  - platform: aws
